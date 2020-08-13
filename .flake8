@@ -1,0 +1,11 @@
+[flake8]
+max-line-length = 79
+exclude =
+    .git,
+    __pycache__,
+    .env,
+    alembic
+ignore =
+    H306,  # Imports not in alphabetical order
+    D101,  # Missing docstring in public class
+    W503,  # Line break before binary operator - deprecated

@@ -1,0 +1,6 @@
+-r requiremets.txt
+
+# Code-style
+flake8
+isort
+pre-commit
